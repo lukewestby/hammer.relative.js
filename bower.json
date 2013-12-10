@@ -1,0 +1,25 @@
+{
+  "name": "hammer.relative.js",
+  "main": "hammer.relative.js",
+  "version": "0.0.2",
+  "homepage": "https://github.com/lukewestby/hammer.relative.js",
+  "description": "A patch for getting event-relative gesture data from Hammer events",
+  "keywords": [
+    "hammer",
+    "multitouch",
+    "jquery",
+    "gesture",
+    "relative"
+  ],
+  "authors": [
+    "Luke William Westby <lwestby@nd.edu>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
