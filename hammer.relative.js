@@ -13,6 +13,7 @@
 				scale: extendedEv.scale - this.current.lastEvent.scale,
 				distance: extendedEv.distance - this.current.lastEvent.distance,
 				rotation: extendedEv.rotation - this.current.lastEvent.rotation,
+				separation: extendedEv.separation - this.current.lastEvent.separation
 			};
 
 			return extendedEv;
