@@ -1,4 +1,10 @@
-(function (Hammer) {
+(function (root, factory) {
+    if (typeof define === 'function' && define.amd) {
+        define(['hammer'], factory);
+    } else {
+        factory(root.Hammer);
+    }
+}(this, function (Hammer) {
 
 	Hammer.plugins.relative = function () {
 
@@ -19,4 +25,4 @@
 			return extendedEv;
 		};
 	};
-})(window.Hammer);
+}));
