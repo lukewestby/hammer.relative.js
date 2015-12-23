@@ -1,3 +1,5 @@
+# DON'T USE THIS
+
 # hammer.relative.js
 
 A simple patch for getting relative gesture data out of Hammer events. It requires at least the full Hammer distribution and is compatible with the jQuery plugin.
